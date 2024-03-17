@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 50%;
+            margin: 100px auto;
+            background-color: #fff;
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            font-size: 18px;
+            color: #333;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: transparent;
+            color: black;
+            padding: 12px 20px;
+            margin: 8px 4px;
+            border: 1px solid black;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.freeiconspng.com/uploads/login-icon-17.jpg" alt="Login Icon">
+        <h2>ENTER LOGIN DETAILS</h2>
+        <form>
+            <label for="id">Login ID:</label><br>
+            <input type="text" id="id"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password"><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
